@@ -1,0 +1,204 @@
+/*********
+
+Custom Styling Classes
+
+*********/
+
+.pointer {
+    cursor: pointer;
+}
+
+.bg-ytRed {
+    background-color: #c00;
+}
+
+.bg-ytDarkGrey {
+    background-color: #222;
+}
+
+.bg-black {
+    background-color: #000;
+}
+
+.bg-lighten:hover {
+    background-color: #ced4da;
+}
+
+.border-top-ytRed {
+    border-top: 2px solid #800;
+}
+
+.border-bottom-ytRed {
+    border-bottom: 2px solid #800;
+}
+
+.border-top-black {
+    border-top: 2px solid #000;
+}
+
+.border-bottom-black {
+    border-bottom: 2px solid #000;
+}
+
+.text-ytRed {
+    color: #c00;
+}
+
+.border-ytRed {
+    border: 1px solid #c00;
+}
+
+.btn-ytRed:hover {
+    background-color: #800;
+}
+
+.top-rounded {
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+}
+
+/*********
+
+Main Parts Custom Styles
+
+*********/
+
+
+#main.row {
+    margin: 0;
+}
+
+
+#footer > div {
+    width: 300px;
+}
+
+#landSearch .landingGreyBg {
+    background-color: #11111A;
+    width: 55vw;
+    height: 52vh;
+    position: absolute;
+    top: 24%;
+    left: 22.5%;
+}
+
+#landSearch .card {
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#search {
+    background: transparent;
+    border: 0 solid black;
+    border-radius: 0;
+    border-bottom: 1px solid #ced4da;
+    margin-top: 5px;
+    color: white;
+}
+
+#search:focus {
+    border-bottom: 1px solid #c00;
+    outline: none;
+    box-shadow: none;
+}
+
+/*********
+
+Video Positioning,Thumbnail Styles, Text Styles
+
+*********/
+
+.video .imageWrapper {
+    max-width: 240px;
+    height: 135px;
+}
+
+.video img  {
+    min-width: 240px;
+    width: 100%;
+    height: auto;
+}
+
+.video img:hover  {
+    border: 1px solid white;
+}
+
+.video p {
+    font-size: 0.9rem;
+    margin-bottom: 0.2rem;
+}
+
+.video p.title:hover {
+    text-decoration: underline;
+}
+
+.video small {
+    line-height: 0.8rem;
+    font-size: 0.65rem;
+}
+
+.video small.description {
+    font-size: 0.8rem;
+    font-weight: 100;
+}
+
+.iframeWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+}
+
+.iframeWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.videoPlayer p {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.videoPlayer small {
+    line-height: 1rem;
+    font-size: 0.8rem;
+}
+
+.videoPlayer small.description {
+    font-size: 0.9rem;
+    font-weight: 100;
+}
+
+/*********
+
+Media Query
+
+*********/
+
+@media only screen and (max-width: 575px) {
+    .video .imageWrapper  {
+        width: 100%;
+        max-width: 570px;
+        height: auto;
+    }
+
+    .video .video-body {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    #landSearch .landingGreyBg {
+        background-color: #11111A;
+        width: 80vw;
+        height: 40vh;
+        position: absolute;
+        top: 30%;
+        left: 10%;
+    }
+}
