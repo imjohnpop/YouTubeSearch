@@ -51,7 +51,7 @@ export default class LandingSearchPage extends Component {
                         </form>
                     </div>
                     <div className="card-footer bg-ytRed text-muted">
-                        <h2 className="text-white">Add Free YouTube</h2>
+                        <h2 className="text-white">Ads Free YouTube</h2>
                         <p className="text-white">Created by Jan Poprocsi</p>
                     </div>
                 </div>
