@@ -10,7 +10,7 @@ import VideosList from "./components/VideosList";
 import VideoPlayer from "./components/VideoPlayer";
 
 
-const API_KEY = 'AIzaSyDDAkDefW2ZCPoNmhUYqsmGGep7J4K53nY';
+const API_KEY = 'AIzaSyAZ6pMY6RWfjrkE0by3XesMnrXZPf1XFlo';
 
 export default class App extends Component {
 
